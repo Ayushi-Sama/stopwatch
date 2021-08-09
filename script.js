@@ -21,7 +21,7 @@ let status ="Stopped";
 function stopwatch(){
     nanoseconds++;
     //logic to determine when to increment next value
-    if(nanoseconds/1000==1){
+    if(nanoseconds/100==1){
         nanoseconds=0;
         seconds++;
 
